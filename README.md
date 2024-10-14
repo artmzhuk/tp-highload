@@ -117,7 +117,7 @@ Envoy + least conn
 ### Отказоустойчивость
 Отказоустойчивость будет обеспечена за счёт самого Kubernetes, который при отказе пода поднимет новый экземпляр сервиса. На уровне кластеров L4-балансировщик будет ежесекундно проводить healthcheck kubernetes, и переключать на другие кластеры при отказе
 ## Логическая схема БД
-![20241007_180604](https://github.com/user-attachments/assets/d58db122-3cd7-424a-9b82-6db83dc625f1)
+![image](https://github.com/user-attachments/assets/35a77b66-8f38-4b31-9bc9-a914993c26d3)
 ### Размеры данных                                                
 **User**: 4(ID) + 4(Avatar ID) + 50(Name) + 50(Surname) + 15(Phone) + 100(email) + 50(country) + 3(date of birth) + 255(пароль) + 255(хэш) + 8(created_at) + 8(updated_at) = 802 байт * 537кк = 545гб
 
