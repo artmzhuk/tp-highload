@@ -172,7 +172,8 @@
 
 ### CDN
 
-Так как на сервисе достаточно много статики, то можно использовать CDN. (Booking использует от Amazon)
+Так как на сервисе достаточно много статики, то будем использовать Amazon Cloudfront. Он имеет сервера по всему миру (в т.ч. в каждой из локаций ДЦ) [Источник](https://aws.amazon.com/ru/cloudfront/features/?whats-new-cloudfront.sort-by=item.additionalFields.postDateTime&whats-new-cloudfront.sort-order=desc)
+
 
 <h1 id="4"><b>Локальная балансировка нагрузки</b></h1>
 ### Схема балансировки входящих запросов
