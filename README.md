@@ -355,6 +355,7 @@ Nginx хорошо интегрируется с Kubernetes (K8s сам масш
 |         | created_at | TIMESTAMP  | Время создания               |
 
 <h1 id="6"><b>Физическая схема БД</b></h1>
+
 ![Physical DB drawio](https://github.com/user-attachments/assets/eae48afd-bc5b-41b8-8661-bccd13fa0bac)
 
 Хранение
