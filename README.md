@@ -370,6 +370,8 @@ Nginx хорошо интегрируется с Kubernetes (K8s сам масш
 
 - Cassandra: Используется для хранения всех остальных данных.
 
+- ElasticSearch: Используется для поиска по объектам недвижимости
+
 ### **Основные сущности и СУБД**
 
 | **Название таблиц**                                                   | **Выбранная СУБД** |
@@ -377,6 +379,7 @@ Nginx хорошо интегрируется с Kubernetes (K8s сам масш
 | **Sessions**                                                          | **Tarantool**      |
 | **User, Property, PropertyFeature, Room, Booking, Review, Favorites** | **Cassandra**     |
 | **PropertyPhoto, UserAvatar**                                         | **S3**             |
+| **PropertySearch**                                         | **ElasticSearch**             |
 | **Сhat, messgage**                                                    | **Postgres**      |
 
 
