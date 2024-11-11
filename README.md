@@ -496,4 +496,4 @@ primary key сделаем property_id.
 | **Prometheus**                   | Настройка резервных экземпляров Prometheus для сохранения метрик, а также репликация алертов и конфигураций для защиты от потери данных при сбоях.                                       |
 
 <h1 id="10"><b>Схема проекта</b></h1>
-![Схема](https://github.com/user-attachments/assets/84d12a33-ef24-4690-b05d-c95c6f7627b3)
+![lol drawio](https://github.com/user-attachments/assets/3bbaf849-911b-4e31-9182-3d3217a18f69)
