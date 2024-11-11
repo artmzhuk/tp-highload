@@ -1,4 +1,4 @@
-# Расчётно-пояснительная записка
+![lol drawio (1)](https://github.com/user-attachments/assets/dd481e49-411a-4983-93e7-9bbad8e44cc5)# Расчётно-пояснительная записка
 
 #### 1. [Тема и целевая аудитория](#1)
 
@@ -504,4 +504,5 @@ primary key сделаем property_id.
 
 <h1 id="10"><b>Схема проекта</b></h1>
 
-![Схема](https://github.com/user-attachments/assets/3bbaf849-911b-4e31-9182-3d3217a18f69)
+![Схема](https://github.com/user-attachments/assets/ef7f4fb9-bc11-479e-981a-927d1783a666)
+
