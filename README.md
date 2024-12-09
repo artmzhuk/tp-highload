@@ -560,6 +560,14 @@ primary key сделаем property_id.
 На одном сервере 32 ядра CPU, 128 Gb RAM
 
 
+| **База данных**   | **Таблицы**                                                                     | **RPS (пиковый)** |
+|-------------------|---------------------------------------------------------------------------------|-------------------|
+| **Tarantool**     | `Sessions`                                                                      | 48,600            |
+| **Cassandra**     | `User`, `Property`, `PropertyFeature`, `Room`, `Booking`, `Review`, `Favorites` | 41,579            |
+| **ElasticSearch** | `PropertySearch`                                                                | 16,286            |
+| **Postgres**      | `Chat`, `Message`                                                               | 2,715             |
+
+RPS для баз данных посчитан исходя из нагрузок на соответствующие сервисы
 
 
 Модель развертывания: Kubernetes.
