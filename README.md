@@ -506,6 +506,9 @@ primary key сделаем property_id.
 <h1 id="10"><b>Схема проекта</b></h1>
 
 ![Схема](https://github.com/user-attachments/assets/68d5dced-15b6-4e2d-afd6-6d02cf3433c9)
+
+---
+
 ![Схема2](https://github.com/user-attachments/assets/592023ac-66e7-4dba-8211-dc4bf2856c64)
 
 
