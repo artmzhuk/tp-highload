@@ -563,8 +563,8 @@ primary key сделаем property_id.
 | **База данных**   | **Таблицы**                                                                     | **RPS (пиковый)** |
 |-------------------|---------------------------------------------------------------------------------|-------------------|
 | **Tarantool**     | `Sessions`                                                                      | 48,600            |
-| **Cassandra**     | `User`, `Property`, `PropertyFeature`, `Room`, `Booking`, `Review`, `Favorites` | 41,579            |
-| **ElasticSearch** | `PropertySearch`                                                                | 16,286            |
+| **Cassandra**     | `User`, `Property`, `PropertyFeature`, `Room`, `Booking`, `Review`, `Favorites` | 38,000            |
+| **ElasticSearch** | `PropertySearch`                                                                | 10,200            |
 | **Postgres**      | `Chat`, `Message`                                                               | 2,715             |
 
 RPS для баз данных посчитан исходя из нагрузок на соответствующие сервисы
